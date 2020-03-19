@@ -3,7 +3,7 @@ import React from "react";
 import "components/CollectionPreview/CollectionPreview.scss";
 import CollectionItem from "components/CollectionItem"
 
-function CategoryMenu({ items }) {
+function CollectionPreview({ items }) {
   return (
     <div className="collection-preview-items">
       {items.map(({ id, ...itemOtherKeys}) => (
@@ -13,4 +13,4 @@ function CategoryMenu({ items }) {
   );
 }
 
-export default CategoryMenu;
+export default CollectionPreview;

@@ -1,0 +1,13 @@
+.login-page{
+    display: flex;
+    .login-container, .signup-container{
+        flex-grow:1;
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+    }
+    .login-buttons{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

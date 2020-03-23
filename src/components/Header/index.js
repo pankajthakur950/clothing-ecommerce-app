@@ -24,7 +24,7 @@ function Header({ currentUser }) {
           </div>
         ) : (
           <Link className="nav-link" to={"/login"}>
-            SIGNIN H A
+            SIGNIN
           </Link>
         )}
       </div>
